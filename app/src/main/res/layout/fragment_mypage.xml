@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mypagefrg"
+    android:background="@color/background"
+    tools:context=".main.MypageFragment">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="168dp"
+        android:layout_marginStart="290dp"
+        android:src="@drawable/manprofile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="여름의 태양"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="160dp"
+        android:layout_marginStart="22dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="28세, 김해"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="22dp" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="230dp"
+        android:layout_marginStart="22dp"
+        android:padding="10dp"
+        android:text="내 정보 수정"
+        android:textSize="13dp"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:drawableEnd="@drawable/pencil"
+        android:background="@drawable/btn_small" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="280dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginStart="22dp"
+            android:background="@drawable/btn_allow_left"
+            android:text="화살"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/allow_profile_buy"
+            android:paddingLeft="20dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginEnd="22dp"
+            android:background="@drawable/btn_allow_right"
+            android:text="13+ 개"
+            android:textColor="@color/white"
+            android:drawableRight="@drawable/allow_buy"
+            android:paddingRight="20dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="370dp"
+        android:layout_height="400dp"
+        android:src="@drawable/rectangle262"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="350dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="60dp"
+        android:text="내 정보 수정"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginStart="60dp"
+        android:text="고객센터"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginStart="60dp"
+        android:text="개인정보 동의"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginStart="60dp"
+        android:text="회원탈퇴"
+        android:textColor="@color/white" />
+
+</FrameLayout>

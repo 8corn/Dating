@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "873910348003",
+    "project_id": "dating-5f207",
+    "storage_bucket": "dating-5f207.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873910348003:android:70aab307481bc318843dd6",
+        "android_client_info": {
+          "package_name": "com.corn.project002dating"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxpHSOCrxRaNIiEUFV5jWjJFxamUC72qQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profilefragment">
+
+    <fragment
+        android:id="@+id/profilefragment"
+        android:name="com.corn.project002dating.main.ProfileFragment"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile">
+        <action
+            android:id="@+id/onetotwo"
+            app:destination="@+id/chatlistfragment" />
+        <action
+            android:id="@+id/onetoThree"
+            app:destination="@+id/gatherfragment" />
+        <action
+            android:id="@+id/onetofour"
+            app:destination="@+id/mypagefragment" />
+
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatlistfragment"
+        android:name="com.corn.project002dating.main.ChatListFragment"
+        android:label="Chat Fragment"
+        tools:layout="@layout/fragment_chat_list">
+        <action
+            android:id="@+id/twotothree"
+            app:destination="@+id/gatherfragment" />
+        <action
+            android:id="@+id/twotofour"
+            app:destination="@+id/mypagefragment" />
+        <action
+            android:id="@+id/twotoone"
+            app:destination="@+id/profilefragment" />
+        <action
+            android:id="@+id/chattolist"
+            app:destination="@+id/chatfragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/chatfragment"
+        android:name="com.corn.project002dating.main.ChatFragment"
+        android:label="Chat List"
+        tools:layout="@layout/fragment_chat" >
+        <action
+            android:id="@+id/listtochat"
+            app:destination="@+id/chatlistfragment" />
+        <argument
+            android:name="chatRoomId"
+            app:argType="string" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/gatherfragment"
+        android:name="com.corn.project002dating.main.GatherFragment"
+        android:label="gather"
+        tools:layout="@layout/fragment_gather">
+        <action
+            android:id="@+id/threetofour"
+            app:destination="@+id/mypagefragment" />
+        <action
+            android:id="@+id/threetoone"
+            app:destination="@id/profilefragment" />
+        <action
+            android:id="@+id/threetotwo"
+            app:destination="@id/chatlistfragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/mypagefragment"
+        android:name="com.corn.project002dating.main.MypageFragment"
+        android:label="mypage"
+        tools:layout="@layout/fragment_mypage">
+        <action
+            android:id="@+id/fourtoone"
+            app:destination="@+id/profilefragment" />
+        <action
+            android:id="@+id/fourtotwo"
+            app:destination="@id/chatlistfragment" />
+        <action
+            android:id="@+id/fourtothree"
+            app:destination="@+id/gatherfragment" />
+
+    </fragment>
+
+</navigation>

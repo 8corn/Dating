@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@color/background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="543dp"
+        android:src="@drawable/onboarding3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="나의 진짜 이상형 찾기,\n라잇에 오신걸 환영합니다." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:text="내 얼굴의 특징을 알아보고 정확한 내 이상형도 찾을 수 있어요."
+        android:textColor="@color/txtcolor" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/pagenav" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="650dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_small"
+        android:text="다음"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/white" />
+
+</FrameLayout>

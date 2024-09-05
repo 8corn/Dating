@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">Shit</string>
+    <string-array name="gender">
+        <item>성별</item>
+        <item>남자</item>
+        <item>여자</item>
+    </string-array>
+    <string-array name="place">
+        <item>지역</item>
+        <item>서울</item>
+        <item>부산</item>
+        <item>인천</item>
+        <item>대전</item>
+        <item>대구</item>
+        <item>광주</item>
+        <item>울산</item>
+        <item>강원</item>
+        <item>경기</item>
+        <item>충북</item>
+        <item>충남</item>
+        <item>전북</item>
+        <item>전남</item>
+        <item>경북</item>
+        <item>경남</item>
+        <item>제주</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="blood">
+        <item>혈액형</item>
+        <item>A형</item>
+        <item>B형</item>
+        <item>O형</item>
+        <item>AB형</item>
+    </string-array>
+    <string-array name="mbti">
+        <item>MBTI</item>
+        <item>ISTP</item>
+        <item>ISTJ</item>
+        <item>ISFP</item>
+        <item>ISFJ</item>
+        <item>INTP</item>
+        <item>INTJ</item>
+        <item>INFP</item>
+        <item>INFJ</item>
+        <item>ESTP</item>
+        <item>ESTJ</item>
+        <item>ESFP</item>
+        <item>ESFJ</item>
+        <item>ENTP</item>
+        <item>ENTJ</item>
+        <item>ENFP</item>
+        <item>ENFJ</item>
+    </string-array>
+    <string-array name="constellation">
+        <item>별자리</item>
+        <item>양자리</item>
+        <item>황소자리</item>
+        <item>쌍둥이자리</item>
+        <item>게자리</item>
+        <item>사자자리</item>
+        <item>처녀자리</item>
+        <item>천칭자리</item>
+        <item>전갈자리</item>
+        <item>궁수자리</item>
+        <item>염소자리</item>
+        <item>물병자리</item>
+        <item>물고기자리</item>
+    </string-array>
+    <string-array name="like">
+        <item>관심사</item>
+    </string-array>
+    <string-array name="religion">
+        <item>종교</item>
+        <item>불교</item>
+        <item>기독교</item>
+        <item>천주교</item>
+        <item>흰두교</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="purpose">
+        <item>가입한 목적</item>
+        <item>연애를 위해</item>
+        <item>가벼운 만남을 위해</item>
+        <item>동네 친구를 사귀기 위해</item>
+        <item>술 친구를 위해</item>
+        <item>얘기할 친구가 필요해서</item>
+        <item>기타</item>
+    </string-array>
+</resources>
